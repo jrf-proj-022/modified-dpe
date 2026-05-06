@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61.0", "Cython", "numpy"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "causal-history-extraction"
+version = "0.1.0"
+description = "Identification of causal direction between binary sequences using bit-flip dictionaries and XNOR pattern extraction."
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [
+    { name = "", email = "" }
+]
+keywords = ["causality", "binary-sequences", "pattern-extraction"]
+
+# Syncing with your requirements.txt
+dynamic = ["dependencies"]
+
+# --- ADDED SECTION: CLI ENTRY POINT ---
+[project.scripts]
+analyze-causality = "model.main:main"
+
+[tool.setuptools]
+# This explicitly maps the root of your package to the src folder
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["model*"]  # This ensures your 'model' package is included
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0", "black>=23.0"]
