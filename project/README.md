@@ -34,7 +34,7 @@ A lower W indicates stronger causal structure. The direction with the lower W is
 ## Project Structure
 
 ```
-DPE/
+project/
 └── causal-method/
     ├── environment.yml        # Conda environment
     ├── pyproject.toml         # Build system & CLI entry point
