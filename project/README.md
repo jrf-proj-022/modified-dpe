@@ -93,7 +93,7 @@ python setup.py build_ext --inplace
 **Clone from the repository:**
 ## References
 Pranay SY, Nithin Nagaraj, Causal discovery using compression-complexity measures, Journal of Biomedical Informatics, Volume 117,
-2021,103724, ISSN 1532-0464, [Paper](https://www.sciencedirect.com/science/article/pii/S1532046421000538?via%3Dihub), [GitHub](https://github.com/pranaysy/ETCPy/)
+2021,103724, ISSN 1532-0464, | [Paper](https://www.sciencedirect.com/science/article/pii/S1532046421000538?via%3Dihub) | [GitHub](https://github.com/pranaysy/ETCPy/) |
 ```bash
 cd ../experiments/ETCPy/
 pip install -e . --no-build-isolation
