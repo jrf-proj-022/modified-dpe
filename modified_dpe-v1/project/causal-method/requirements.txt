@@ -1,0 +1,17 @@
+numba
+pytest
+numpy
+pandas
+matplotlib
+seaborn
+wheel
+Cython
+setuptools
+arch
+statsmodels
+pyinform
+cdt
+gisaid-download
+networkx
+causal-learn
+setuptools
