@@ -72,11 +72,6 @@ A C compiler is required to build the Cython extension:
 git clone <repository-url>
 ```
 
-**Option B — Download the bundle (recommended):**
-Download `DPE.zip` from the anonymous submission link provided with this paper.
-
-The zip contains all files, datasets, and documentation in the structure above.
-
 ### 2. Create the Environment and Install
 
 ```bash
@@ -97,8 +92,8 @@ python setup.py build_ext --inplace
 ### 3. Install the ETCPy Baseline (optional)
 **Clone from the repository:**
 ## References
-* Si, Y., et al. (2021). "Deep learning for electronic health records: A comparative review of methodology and applications." *Journal of Biomedical Informatics*. [Read on ScienceDirect](https://www.sciencedirect.com/science/article/pii/S1532046421000538)
-[GitHub Repo](https://www.sciencedirect.com/science/article/pii/S1532046421000538)
+Pranay SY, Nithin Nagaraj, Causal discovery using compression-complexity measures, Journal of Biomedical Informatics, Volume 117,
+2021,103724, ISSN 1532-0464, | [Paper](https://www.sciencedirect.com/science/article/pii/S1532046421000538?via%3Dihub) | [GitHub](https://github.com/pranaysy/ETCPy/) |
 ```bash
 cd ../experiments/ETCPy/
 pip install -e . --no-build-isolation
