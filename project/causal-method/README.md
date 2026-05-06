@@ -34,7 +34,7 @@ A lower W indicates stronger causal structure. The direction with the lower W is
 ## Project Structure
 
 ```
-DPE/
+project/
 └── causal-method/
     ├── environment.yml        # Conda environment
     ├── pyproject.toml         # Build system & CLI entry point
@@ -261,4 +261,4 @@ find . -name "*.c" -delete
 
 ## Full API Reference
 
-See `docs/documentation.md` for the complete function-level reference including parameter tables, return types, algorithm notes, and differences between `cy_utils` and `utils`.
+See `causal-method/docs/documentation.md` for the complete function-level reference including parameter tables, return types, algorithm notes, and differences between `cy_utils` and `utils`.
