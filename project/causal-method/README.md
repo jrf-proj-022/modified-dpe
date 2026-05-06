@@ -263,4 +263,4 @@ find . -name "*.c" -delete
 
 ## Full API Reference
 
-See [`DOCUMENTATION.md`](docs/DOCUMENTATION.md) for the complete function-level reference including parameter tables, return types, algorithm notes, and differences between `cy_utils` and `utils`.
+See [`DOCUMENTATION.md`](docs/documentation.md) for the complete function-level reference including parameter tables, return types, algorithm notes, and differences between `cy_utils` and `utils`.
