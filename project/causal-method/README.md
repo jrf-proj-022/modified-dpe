@@ -71,6 +71,7 @@ A C compiler is required to build the Cython extension:
 ```bash
 git clone <repository-url>
 ```
+OR `Download` manually.
 
 ### 2. Create the Environment and Install
 
