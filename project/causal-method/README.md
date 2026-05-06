@@ -97,7 +97,8 @@ python setup.py build_ext --inplace
 ### 3. Install the ETCPy Baseline (optional)
 **Clone from the repository:**
 ## References
-* Si, Y., et al. (2021). "Deep learning for electronic health records: A comparative review of methodology and applications." *Journal of Biomedical Informatics*. [Read on ScienceDirect](https://www.sciencedirect.com/science/article/pii/S1532046421000538) [Repo](https://www.sciencedirect.com/science/article/pii/S1532046421000538)
+* Si, Y., et al. (2021). "Deep learning for electronic health records: A comparative review of methodology and applications." *Journal of Biomedical Informatics*. [Read on ScienceDirect](https://www.sciencedirect.com/science/article/pii/S1532046421000538)
+[GitHub Repo](https://www.sciencedirect.com/science/article/pii/S1532046421000538)
 ```bash
 cd ../experiments/ETCPy/
 pip install -e . --no-build-isolation
